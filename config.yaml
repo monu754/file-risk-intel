@@ -1,0 +1,11 @@
+scan_settings:
+  root_directory: "C:/Users/ASUS/Downloads"  # Change this to the folder you want to analyze
+  exclude_extensions: [".pyc", ".git", ".tmp"]
+  
+ml_settings:
+  n_clusters: 4
+  # Decision Science: Define weight of each factor in Risk Score
+  risk_weights:
+    size: 0.3
+    age: 0.5
+    access: 0.2  # High access reduces risk even if the file is old

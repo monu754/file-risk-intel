@@ -1,0 +1,31 @@
+{
+    "model_validation": {
+        "silhouette_score": 0.6653090616311436
+    },
+    "cluster_profiles": {
+        "0": {
+            "size_kb": 0.21484375,
+            "days_since_mod": 75.0,
+            "label": "Active Workspace"
+        },
+        "1": {
+            "size_kb": 4383.8984375,
+            "days_since_mod": 75.0,
+            "label": "Active Workspace"
+        },
+        "2": {
+            "size_kb": 21620.7880859375,
+            "days_since_mod": 3590.0,
+            "label": "Dormant Giants (High Risk)"
+        },
+        "3": {
+            "size_kb": 252.8232421875,
+            "days_since_mod": 78.0,
+            "label": "Dormant Giants (High Risk)"
+        }
+    },
+    "system_health": {
+        "total_files": 340,
+        "high_risk_threshold": 0.2464000000000001
+    }
+}
