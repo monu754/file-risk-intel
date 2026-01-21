@@ -65,27 +65,27 @@ Metadata Extraction → Feature Engineering → ML Clustering → Risk Scoring �
 ---
 
 ## 📁 Repository Structure
-File-System-Risk-Intelligence/
-│
+
+```text
+file-risk-intel/
 ├── data/
-│   ├── intelligence_report.csv          # raw + enriched dataset
-│   └── intelligence_summary.json         # executive summary
+│   ├── intelligence_report.csv      # Raw + enriched analytical dataset
+│   └── intelligence_summary.json    # Executive summary & model metrics
 │
 ├── dashboards/
-│   ├── powerbi_dashboard.pbix            # Power BI file
-│   └── dashboard_preview.png             # screenshot of dashboard
+│   ├── powerbi_dashboard.pbix       # Power BI dashboard
+│   └── dashboard_preview.png        # Dashboard screenshot
 │
 ├── src/
-│   ├── extractor.py
-│   ├── processor.py
-│   ├── analyzer.py
-│   └── visualizer.py
+│   ├── extractor.py                 # Metadata extraction
+│   ├── processor.py                 # Feature engineering
+│   ├── analyzer.py                  # Clustering & risk scoring
+│   └── visualizer.py                # Visualization logic
 │
-├── config.yaml
-├── main.py
-│
-├── requirements.txt
-├── README.md
+├── config.yaml                      # Configurable system parameters
+├── main.py                          # Pipeline entry point
+├── requirements.txt                 # Python dependencies
+├── README.md                        # Project documentation
 └── .gitignore
 
 ---
